@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pay It Forward Productions | Sovereign Ecosystem Command Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root { --bg: #070a12; --card: #111827; --border: #1f2937; --accent: #38bdf8; --gold: #f59e0b; --text: #f3f4f6; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; }
+    header { background: var(--card); border-bottom: 2px solid var(--accent); padding: 1.25rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .hero { max-width: 1280px; margin: 2rem auto 1rem; padding: 0 1.5rem; }
+    .grid { max-width: 1280px; margin: 0 auto 3rem; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; }
+    .tile { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; }
+    .tile h3 { margin-top: 0; color: var(--accent); }
+    .btn { display: inline-block; text-align: center; background: var(--accent); color: #000; text-decoration: none; padding: 10px 14px; border-radius: 4px; font-weight: bold; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>PAY IT FORWARD PRODUCTIONS, LLC</strong> // PAYITFORWARD.WORKS</div>
+    <div style="font-size:0.85rem;color:var(--gold);">30/30/40 COVENANT | SOVEREIGN MEDIA ASSET TRUST</div>
+  </header>
+  <section class="hero">
+    <h1>Unified Subsidiary & Production Ecosystem</h1>
+    <p style="color:#9ca3af;">Direct access to all operational web engines, R2 media pipelines, Fourthwall merch storefront, and Covenant financial ledgers.</p>
+  </section>
+  <main class="grid">
+    <div class="tile">
+      <div>
+        <h3>P.A. Nation Academy</h3>
+        <p>5-in-1 Set Training Arcade & Prince of Orange Mall 24/7 Lounge Retrofit Hub.</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/academy/index.html">LAUNCH ACADEMY</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>The Quest Matrix</h3>
+        <p>Carto Vector Basemap & Haversine GPS Scavenger Syndicate (Orangeburg, SC).</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/quest/index.html">LAUNCH QUEST MATRIX</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>Sky Blue Studios & Give Me Props</h3>
+        <p>Equipment Bailment Rate Cards & Printable QR Asset Tag Sticker Forge.</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/skyblue_props/index.html">LAUNCH ASSET FORGE</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>Eloquent Casting & Alaska Staffing</h3>
+        <p>Automated Deal Memos, Talent Vouchers & Seasonal Guide Placement.</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/casting/index.html">LAUNCH CASTING PORTAL</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>PIFCFO Covenant Ledger</h3>
+        <p>Real-Time 30/30/40 Distribution Calculator & 10% Crew Healthcare Reserve.</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/cfo_dashboard/index.html">OPEN CFO LEDGER</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>Audios Audio, Dress 2 Invest, Little Helpers & The Code</h3>
+        <p>Web Audio Synth Workstation & Subsidiary Mission Hub.</p>
+      </div>
+      <a class="btn" href="../PIF-ECOSYSTEM/apps/subsidiaries/index.html">OPEN SUBSIDIARY MATRIX</a>
+    </div>
+    <div class="tile">
+      <div>
+        <h3>Official Merch Storefront</h3>
+        <p>Fourthwall Fulfillment & Crew Apparel Storefront.</p>
+      </div>
+      <a class="btn" style="background:var(--gold);" href="https://payitforward-shop.fourthwall.com" target="_blank" rel="noopener">OPEN FOURTHWALL STORE</a>
+    </div>
+  </main>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('../PIF-ECOSYSTEM/sw.js').catch(() => {});
+    }
+  </script>
+</body>
+</html>
